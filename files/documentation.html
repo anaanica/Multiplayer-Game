@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Class documentation</title>
+<script src="../src/main/resources/hr/algebra/threerp3/tictactoe3rp3/view/js/jquery-3.3.1.slim.min.js"></script>
+<script src="../src/main/resources/hr/algebra/threerp3/tictactoe3rp3/view/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="../src/main/resources/hr/algebra/threerp3/tictactoe3rp3/view/style/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../src/main/resources/hr/algebra/threerp3/tictactoe3rp3/view/style/documentation.css">
+</head>
+<body>
+<div class="container-fluid">
+<h1>List of classes</h1>
+<hr>
+<div class="row"><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.repository<br />
+</h3>
+<h2>public abstract interface VillageRepository</h2>
+<h3></h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+public abstract interface Set getVillages() throws Exception<br />
+<h4> List of constructors: </h4>
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.repository.file<br />
+</h3>
+<h2>public FileCityRepository</h2>
+<h3> extends Object implements CityRepository</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+public Set getCities() throws Exception<br />
+<h4> List of constructors: </h4>
+public FileCityRepository()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.repository.file<br />
+</h3>
+<h2>public FileCountryRepository</h2>
+<h3> extends Object implements CountryRepository</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+public Set getCountries() throws Exception<br />
+<h4> List of constructors: </h4>
+public FileCountryRepository()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.repository.file<br />
+</h3>
+<h2>public FileRiverRepository</h2>
+<h3> extends Object implements RiverRepository</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+public Set getRivers() throws Exception<br />
+<h4> List of constructors: </h4>
+public FileRiverRepository()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.repository.file<br />
+</h3>
+<h2>public FileVillageRepository</h2>
+<h3> extends Object implements VillageRepository</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+public Set getVillages() throws Exception<br />
+<h4> List of constructors: </h4>
+public FileVillageRepository()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.repository<br />
+</h3>
+<h2>public abstract interface CityRepository</h2>
+<h3></h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+public abstract interface Set getCities() throws Exception<br />
+<h4> List of constructors: </h4>
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.repository<br />
+</h3>
+<h2>public abstract interface RiverRepository</h2>
+<h3></h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+public abstract interface Set getRivers() throws Exception<br />
+<h4> List of constructors: </h4>
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3>@Author(name="Ana")</h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.repository<br />
+</h3>
+<h2>public final RepositoryFactory</h2>
+<h3> extends Object</h3>
+<h4> List of member variables: </h4>
+private static CountryRepository countryRepository<br />
+private static CityRepository cityRepository<br />
+private static VillageRepository villageRepository<br />
+private static RiverRepository riverRepository<h4> List of methods: </h4>
+public final CountryRepository getCountryRepository()<br />
+public final CityRepository getCityRepository()<br />
+public final VillageRepository getVillageRepository()<br />
+public final RiverRepository getRiverRepository()<br />
+public final Object createRepository(Class arg0, String arg1) throws Exception<br />
+<h4> List of constructors: </h4>
+public RepositoryFactory()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.repository<br />
+</h3>
+<h2>public abstract interface CountryRepository</h2>
+<h3></h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+public abstract interface Set getCountries() throws Exception<br />
+<h4> List of constructors: </h4>
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.chat.service<br />
+</h3>
+<h2>public RemoteChatServiceImpl</h2>
+<h3> extends Object implements RemoteChatService</h3>
+<h4> List of member variables: </h4>
+private List chatMessages<h4> List of methods: </h4>
+public List getAllChatMessages() throws RemoteException<br />
+public void sendMessage(String arg0) throws RemoteException<br />
+<h4> List of constructors: </h4>
+public RemoteChatServiceImpl()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.chat.service<br />
+</h3>
+<h2>public abstract interface RemoteChatService</h2>
+<h3> implements Remote</h3>
+<h4> List of member variables: </h4>
+public static final String REMOTE_CHAT_OBJECT_NAME<h4> List of methods: </h4>
+public abstract interface List getAllChatMessages() throws RemoteException<br />
+public abstract interface void sendMessage(String arg0) throws RemoteException<br />
+<h4> List of constructors: </h4>
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3>@Author(name="Ana")</h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.utils<br />
+</h3>
+<h2>public final SceneUtils</h2>
+<h3> extends Object</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+public final void setNewSceneToStage(String arg0, String arg1)<br />
+<h4> List of constructors: </h4>
+private SceneUtils()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3>@Author(name="Ana")</h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.utils<br />
+</h3>
+<h2>public final GameResultUtils</h2>
+<h3> extends Object</h3>
+<h4> List of member variables: </h4>
+public static Integer playerOneScore<br />
+public static Integer playerTwoScore<br />
+public static Map allScores<h4> List of methods: </h4>
+public final void calculateResult(TextField[][] arg0, String arg1, Set arg2, Set arg3, Set arg4, Set arg5)<br />
+public final void recordWin(PlayerDetails arg0)<br />
+public final void checkWinner(PlayerDetails arg0, PlayerDetails arg1)<br />
+<h4> List of constructors: </h4>
+private GameResultUtils()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.utils<br />
+</h3>
+<h2>public final XMLUtils</h2>
+<h3> extends Object</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+public final void saveXML()<br />
+public final void loadXML()<br />
+<h4> List of constructors: </h4>
+private XMLUtils()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.utils<br />
+</h3>
+<h2>public final GameStateUtils</h2>
+<h3> extends Object</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+public final GameState createGameState(TextField[][] arg0, String arg1, Integer arg2, Boolean arg3, Integer arg4)<br />
+public final void loadGameState(GameState arg0)<br />
+<h4> List of constructors: </h4>
+private GameStateUtils()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.utils<br />
+</h3>
+<h2>public final InitUtils</h2>
+<h3> extends Object</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+public final void initRepository()<br />
+public final void initSets() throws Exception<br />
+<h4> List of constructors: </h4>
+private InitUtils()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.utils<br />
+</h3>
+<h2>public final RmiUtils</h2>
+<h3> extends Object</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+public final void startRmiRemoteChatServer()<br />
+public final void startRmiRemoteChatClient()<br />
+<h4> List of constructors: </h4>
+private RmiUtils()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3>@Author(name="Ana")</h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.utils<br />
+</h3>
+<h2>public final ReflectionUtils</h2>
+<h3> extends Object</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+public final void generateCompleteDocumentation()<br />
+public final String getFullQualifiedClassName(Path arg0)<br />
+public final String lambda$appendParameters$3(Parameter arg0)<br />
+public final String lambda$appendAnnotations$1(Annotation arg0)<br />
+public final boolean lambda$generateCompleteDocumentation$0(Path arg0)<br />
+public final void appendAnnotations(Class arg0, StringBuilder arg1)<br />
+public final void appendAnnotations(Executable arg0, StringBuilder arg1)<br />
+public final void appendConstructors(Class arg0, StringBuilder arg1)<br />
+public final void appendModifiers(Class arg0, StringBuilder arg1)<br />
+public final void appendInterfaces(Class arg0, StringBuilder arg1)<br />
+public final void appendParameters(Executable arg0, StringBuilder arg1)<br />
+public final void appendExceptions(Executable arg0, StringBuilder arg1)<br />
+public final String lambda$appendFields$2(Field arg0)<br />
+public final void appendFields(Class arg0, StringBuilder arg1)<br />
+public final void appendParent(Class arg0, StringBuilder arg1, boolean arg2)<br />
+public final void readClassInfo(Class arg0, StringBuilder arg1)<br />
+public final void appendMethods(Class arg0, StringBuilder arg1)<br />
+public final void appendPackages(Class arg0, StringBuilder arg1)<br />
+<h4> List of constructors: </h4>
+private ReflectionUtils()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.utils<br />
+</h3>
+<h2>public ConfigurationReader</h2>
+<h3> extends Object</h3>
+<h4> List of member variables: </h4>
+private static final Hashtable environment<h4> List of methods: </h4>
+public Integer readIntegerConfigurationValue(ConfigurationKey arg0)<br />
+public String readStringConfigurationValue(ConfigurationKey arg0)<br />
+public String readValueForKey(Context arg0, ConfigurationKey arg1)<br />
+<h4> List of constructors: </h4>
+public ConfigurationReader()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.utils<br />
+</h3>
+<h2>public final LetterUtils</h2>
+<h3> extends Object</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+public final String getRandomLetter()<br />
+<h4> List of constructors: </h4>
+private LetterUtils()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.utils<br />
+</h3>
+<h2>public final GameMovesUtils</h2>
+<h3> extends Object</h3>
+<h4> List of member variables: </h4>
+private static List geoEntitiesPlayerOne<br />
+private static List geoEntitiesPlayerTwo<br />
+public static List lastGameMoves<h4> List of methods: </h4>
+public final void recordGameMoves(TextField[][] arg0, PlayerDetails arg1, PlayerDetails arg2)<br />
+public final void recordGameMove(PlayerDetails arg0, List arg1, LocalDateTime arg2)<br />
+<h4> List of constructors: </h4>
+private GameMovesUtils()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3>@Author(name="Ana")</h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.utils<br />
+</h3>
+<h2>public final DialogUtils</h2>
+<h3> extends Object</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+public final void printDocumentationSuccess()<br />
+public final void printXMLSaveSuccessfull()<br />
+public final void printXMLLoadSuccessfull()<br />
+public final boolean showConfirmDialog(String arg0, String arg1)<br />
+public final void printSaveSuccessfull()<br />
+public final void printLoadSuccessfull()<br />
+public final void showInformationDialog(String arg0, String arg1)<br />
+public final void printWinner(PlayerDetails arg0, PlayerDetails arg1)<br />
+public final void printDraw(PlayerDetails arg0, PlayerDetails arg1)<br />
+<h4> List of constructors: </h4>
+private DialogUtils()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.utils<br />
+</h3>
+<h2>public NetworkingUtils</h2>
+<h3> extends Object</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+public void sendSerializableRequest(Socket arg0, GameState arg1) throws IOException, ClassNotFoundException<br />
+public void sendRequestToClient(GameState arg0)<br />
+public void sendRequestToServer(GameState arg0)<br />
+public void sendGameStateToServer(GameState arg0)<br />
+public void sendGameStateToClient(GameState arg0)<br />
+<h4> List of constructors: </h4>
+public NetworkingUtils()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3>@Author(name="Ana")</h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.utils<br />
+</h3>
+<h2>public final FileUtils</h2>
+<h3> extends Object</h3>
+<h4> List of member variables: </h4>
+public static final String SAVE_GAME_FILE_NAME<br />
+public static final String DOCUMENTATION_FILE_NAME<br />
+public static final String XML_FILE_NAME<br />
+public static final String XML_RECORD_FILE_NAME<h4> List of methods: </h4>
+public final GameState loadGameFromFile()<br />
+public final void saveGameToFile(TextField[][] arg0, String arg1)<br />
+<h4> List of constructors: </h4>
+private FileUtils()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.utils<br />
+</h3>
+<h2>public final ChatUtils</h2>
+<h3> extends Object</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+public final void sendChatMessage(String arg0)<br />
+public final void refreshChatMessages(TextArea arg0)<br />
+<h4> List of constructors: </h4>
+private ChatUtils()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.exceptions<br />
+</h3>
+<h2>public InvalidConfigurationKeyNameException</h2>
+<h3> extends RuntimeException -> Exception -> Throwable -> Object</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+<h4> List of constructors: </h4>
+public InvalidConfigurationKeyNameException(String arg0, Throwable arg1, boolean arg2, boolean arg3)<br />
+public InvalidConfigurationKeyNameException(Throwable arg0)<br />
+public InvalidConfigurationKeyNameException(String arg0, Throwable arg1)<br />
+public InvalidConfigurationKeyNameException(String arg0)<br />
+public InvalidConfigurationKeyNameException()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3>@Author(name="Ana")</h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.controller<br />
+</h3>
+<h2>public MenuBarController</h2>
+<h3> extends Object</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+public void showNewGameScreen(ActionEvent arg0)<br />
+public void generateDocumentation(ActionEvent arg0)<br />
+public void showHighScoresScreen(ActionEvent arg0)<br />
+public void showGameMovesScreen(ActionEvent arg0)<br />
+public void exitApp(ActionEvent arg0)<br />
+public void saveGame(ActionEvent arg0)<br />
+public void loadGame(ActionEvent arg0)<br />
+public void replayGame(ActionEvent arg0)<br />
+<h4> List of constructors: </h4>
+public MenuBarController()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3>@Author(name="Ana")</h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.controller<br />
+</h3>
+<h2>public GameController</h2>
+<h3> extends Object</h3>
+<h4> List of member variables: </h4>
+public Label lbLetter<br />
+public Label lbPlayerTwo<br />
+public TextField tfCountryTwo<br />
+public TextField tfCityTwo<br />
+public TextField tfVillageTwo<br />
+public TextField tfRiverTwo<br />
+public TextField tfCountryOne<br />
+public TextField tfCityOne<br />
+public TextField tfVillageOne<br />
+public TextField tfRiverOne<br />
+public Label lbPlayerOne<br />
+public Button buttonMint<br />
+public Button buttonLavender<br />
+public TextArea taChatMessages<br />
+public TextField tfChatMessage<br />
+public Label lblLavenderWinRecord<br />
+public Label lblMintWinRecord<br />
+public static Set countries<br />
+public static Set cities<br />
+public static Set villages<br />
+public static Set rivers<br />
+public static TextField[][] gridBoard<br />
+public static Label letter<br />
+public static String currentLetter<br />
+public static PlayerDetails playerOneDetails<br />
+public static PlayerDetails playerTwoDetails<br />
+public static Integer flag<br />
+public static CountryRepository countryRepository<br />
+public static CityRepository cityRepository<br />
+public static VillageRepository villageRepository<br />
+public static RiverRepository riverRepository<br />
+public static Button mint<br />
+public static Button lavender<br />
+public static String[] collectiveRow<br />
+public static RemoteChatService remoteChatService<h4> List of methods: </h4>
+public void initialize() throws Exception<br />
+public void enableTextFields(Boolean arg0, Integer arg1)<br />
+public void sendChatMessage()<br />
+public String formatWinRecord(PlayerDetails arg0)<br />
+public void refreshWinRecordLabels()<br />
+public void lambda$initialize$2(ActionEvent arg0)<br />
+public void lambda$initialize$1(ActionEvent arg0)<br />
+public void lambda$initialize$0(ActionEvent arg0)<br />
+public void refreshLabels()<br />
+public void buttonPressed(ActionEvent arg0)<br />
+<h4> List of constructors: </h4>
+public GameController()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3>@Author(name="Ana")</h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.controller<br />
+</h3>
+<h2>public HelloController</h2>
+<h3> extends Object implements Initializable</h3>
+<h4> List of member variables: </h4>
+public TextField tfPlayerOneName<br />
+public TextField tfPlayerTwoName<br />
+public Label lbPlayerOneNameError<br />
+public Label lbPlayerTwoNameError<br />
+private final Map validationFields<br />
+private static PlayerDetails playerOneDetails<br />
+private static PlayerDetails playerTwoDetails<h4> List of methods: </h4>
+public void initialize(URL arg0, ResourceBundle arg1)<br />
+public PlayerDetails getPlayerOneDetails()<br />
+public PlayerDetails getPlayerTwoDetails()<br />
+public void proceed(ActionEvent arg0)<br />
+public boolean screenValid()<br />
+public void initValidation()<br />
+<h4> List of constructors: </h4>
+public HelloController()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3>@Author(name="Ana")</h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.controller<br />
+</h3>
+<h2>public GameMovesController</h2>
+<h3> extends Object</h3>
+<h4> List of member variables: </h4>
+public TableView tvMoves<br />
+public TableColumn tcPlayer<br />
+public TableColumn tcCountry<br />
+public TableColumn tcCity<br />
+public TableColumn tcVillage<br />
+public TableColumn tcRiver<br />
+public TableColumn tcTime<h4> List of methods: </h4>
+public void initialize()<br />
+public ObservableValue lambda$initTableCells$5(CellDataFeatures arg0)<br />
+public ObservableValue lambda$initTableCells$4(CellDataFeatures arg0)<br />
+public ObservableValue lambda$initTableCells$3(CellDataFeatures arg0)<br />
+public ObservableValue lambda$initTableCells$2(CellDataFeatures arg0)<br />
+public ObservableValue lambda$initTableCells$1(CellDataFeatures arg0)<br />
+public ObservableValue lambda$initTableCells$0(CellDataFeatures arg0)<br />
+public void initTableCells()<br />
+<h4> List of constructors: </h4>
+public GameMovesController()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3>@Author(name="Ana")</h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.controller<br />
+</h3>
+<h2>public HighScoresController</h2>
+<h3> extends Object</h3>
+<h4> List of member variables: </h4>
+public TextArea taHighScores<h4> List of methods: </h4>
+public void initialize()<br />
+public String getScores()<br />
+<h4> List of constructors: </h4>
+public HighScoresController()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3>@Retention(RUNTIME)<br />
+@Target({TYPE})</h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.info<br />
+</h3>
+<h2>public abstract interface Author</h2>
+<h3> implements Annotation</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+public abstract interface String name()<br />
+<h4> List of constructors: </h4>
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.threads<br />
+</h3>
+<h2>public RecordWriterThread</h2>
+<h3> extends Object implements Runnable</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+public void run()<br />
+public void save()<br />
+<h4> List of constructors: </h4>
+public RecordWriterThread()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.threads<br />
+</h3>
+<h2>public RecordReaderThread</h2>
+<h3> extends Object implements Runnable</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+public void run()<br />
+public void load()<br />
+<h4> List of constructors: </h4>
+public RecordReaderThread()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.threads<br />
+</h3>
+<h2>public Configuration</h2>
+<h3> extends Object</h3>
+<h4> List of member variables: </h4>
+public static String mintValue<br />
+public static String lavenderValue<br />
+public static Boolean xmlUsed<h4> List of methods: </h4>
+<h4> List of constructors: </h4>
+public Configuration()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.jndi<br />
+</h3>
+<h2>public InitialDirContextCloseable</h2>
+<h3> extends InitialDirContext -> InitialContext -> Object implements AutoCloseable</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+<h4> List of constructors: </h4>
+public InitialDirContextCloseable(Hashtable arg0) throws NamingException<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3>@Author(name="Ana")</h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.model<br />
+</h3>
+<h2>public abstract GeoEntity</h2>
+<h3> extends Object implements Comparable</h3>
+<h4> List of member variables: </h4>
+protected String name<br />
+protected Integer scoreValue<h4> List of methods: </h4>
+public abstract String getName()<br />
+public abstract String toString()<br />
+public abstract int compareTo(GeoEntity arg0)<br />
+public abstract int compareTo(Object arg0)<br />
+public abstract void setName(String arg0)<br />
+public abstract Integer getScoreValue()<br />
+<h4> List of constructors: </h4>
+public GeoEntity(String arg0)<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.model<br />
+</h3>
+<h2>public Constants</h2>
+<h3> extends Object</h3>
+<h4> List of member variables: </h4>
+public static final Integer NUM_OF_ROWS<br />
+public static final Integer NUM_OF_COLS<h4> List of methods: </h4>
+<h4> List of constructors: </h4>
+public Constants()<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3>@Author(name="Ana")</h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.model<br />
+</h3>
+<h2>public GameMove</h2>
+<h3> extends Object</h3>
+<h4> List of member variables: </h4>
+private PlayerDetails playerDetails<br />
+private List geoEntities<br />
+private LocalDateTime localDateTime<h4> List of methods: </h4>
+public String toString()<br />
+public PlayerDetails getPlayerDetails()<br />
+public void setPlayerDetails(PlayerDetails arg0)<br />
+public LocalDateTime getLocalDateTime()<br />
+public void setLocalDateTime(LocalDateTime arg0)<br />
+public List getGeoEntities()<br />
+public void setGeoEntities(List arg0)<br />
+<h4> List of constructors: </h4>
+public GameMove(PlayerDetails arg0, List arg1, LocalDateTime arg2)<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.model<br />
+</h3>
+<h2>public final City</h2>
+<h3> extends GeoEntity -> Object</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+<h4> List of constructors: </h4>
+public City(String arg0)<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.model<br />
+</h3>
+<h2>public final Village</h2>
+<h3> extends GeoEntity -> Object</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+<h4> List of constructors: </h4>
+public Village(String arg0)<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.model<br />
+</h3>
+<h2>public final UserRole</h2>
+<h3> extends Enum -> Object</h3>
+<h4> List of member variables: </h4>
+public static final UserRole MINT<br />
+public static final UserRole LAVENDER<br />
+public static final UserRole BLUE<br />
+private static final UserRole[] $VALUES<h4> List of methods: </h4>
+public final UserRole[] values()<br />
+public final UserRole valueOf(String arg0)<br />
+public final UserRole[] $values()<br />
+<h4> List of constructors: </h4>
+private UserRole(String arg0, int arg1)<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3>@Author(name="Ana")</h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.model<br />
+</h3>
+<h2>public final PlayerDetails</h2>
+<h3> extends Object implements Serializable</h3>
+<h4> List of member variables: </h4>
+private static Integer nextId<br />
+private final Integer playerId<br />
+private final String playerName<br />
+private Integer numberOfWins<br />
+private Integer playerScore<h4> List of methods: </h4>
+public final String toString()<br />
+public final Integer getNumberOfWins()<br />
+public final Integer getPlayerId()<br />
+public final String getPlayerName()<br />
+public final Integer getPlayerScore()<br />
+public final void setPlayerScore(Integer arg0)<br />
+public final void recordWin()<br />
+<h4> List of constructors: </h4>
+public PlayerDetails(String arg0)<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.model<br />
+</h3>
+<h2>public final ConfigurationKey</h2>
+<h3> extends Enum -> Object</h3>
+<h4> List of member variables: </h4>
+public static final ConfigurationKey SERVER_PORT<br />
+public static final ConfigurationKey CLIENT_PORT<br />
+public static final ConfigurationKey HOST<br />
+public static final ConfigurationKey RANDOM_PORT_HINT<br />
+public static final ConfigurationKey RMI_PORT<br />
+private String keyName<br />
+private static final ConfigurationKey[] $VALUES<h4> List of methods: </h4>
+public final ConfigurationKey[] values()<br />
+public final ConfigurationKey valueOf(String arg0)<br />
+public final ConfigurationKey[] $values()<br />
+public final String getKeyName()<br />
+<h4> List of constructors: </h4>
+private ConfigurationKey(String arg0, int arg1, String arg2)<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.model<br />
+</h3>
+<h2>public final Country</h2>
+<h3> extends GeoEntity -> Object</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+<h4> List of constructors: </h4>
+public Country(String arg0)<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3>@Author(name="Ana")</h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.model<br />
+</h3>
+<h2>public GameState</h2>
+<h3> extends Object implements Serializable</h3>
+<h4> List of member variables: </h4>
+private String[][] gameBoardSymbols<br />
+private String currentLetter<br />
+private Integer playerId<br />
+private Boolean newGame<br />
+private Integer flag<h4> List of methods: </h4>
+public String getCurrentLetter()<br />
+public String[][] getGameBoardSymbols()<br />
+public void setGameBoardSymbols(String[][] arg0)<br />
+public void setCurrentLetter(String arg0)<br />
+public Integer getFlag()<br />
+public void setFlag(Integer arg0)<br />
+public Boolean isNewGame()<br />
+public void setNewGame(Boolean arg0)<br />
+public Integer getPlayerId()<br />
+<h4> List of constructors: </h4>
+public GameState(String[][] arg0, String arg1)<br />
+public GameState(String[][] arg0, String arg1, Integer arg2, Boolean arg3, Integer arg4)<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3></h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3.model<br />
+</h3>
+<h2>public final River</h2>
+<h3> extends GeoEntity -> Object</h3>
+<h4> List of member variables: </h4>
+<h4> List of methods: </h4>
+<h4> List of constructors: </h4>
+public River(String arg0)<br />
+</div><div class="col-12 col-md-6 col-lg-6 mb-4 my-col"><h3>@Author(name="Ana")</h3>
+<h3>package hr.algebra.threerp3.tictactoe3rp3<br />
+</h3>
+<h2>public CCVRApplication</h2>
+<h3> extends Application -> Object</h3>
+<h4> List of member variables: </h4>
+public static UserRole activeUserRole<br />
+private static Stage mainStage<br />
+private static PlayerDetails playerOneDetails<br />
+private static PlayerDetails playerTwoDetails<br />
+public static Boolean lavenderAvailable<br />
+public static Boolean mintAvailable<h4> List of methods: </h4>
+public void main(String[] arg0)<br />
+public void start(Stage arg0) throws IOException<br />
+public void processSerializableClient(Socket arg0)<br />
+public void lambda$acceptRequestsOnClient$1(Socket arg0)<br />
+public void lambda$acceptRequestsOnServer$0(Socket arg0)<br />
+public void acceptRequestsOnServer()<br />
+public void acceptRequestsOnClient()<br />
+public PlayerDetails getPlayerOneDetails()<br />
+public PlayerDetails getPlayerTwoDetails()<br />
+public Boolean isLavenderAvailable()<br />
+public Boolean isMintAvailable()<br />
+public void startMint()<br />
+public void startLavender()<br />
+public Stage getMainStage()<br />
+public void lambda$main$2()<br />
+<h4> List of constructors: </h4>
+public CCVRApplication()<br />
+</div></div>
+</body>
+</html>

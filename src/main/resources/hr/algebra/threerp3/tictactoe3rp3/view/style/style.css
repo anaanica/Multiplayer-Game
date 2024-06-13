@@ -1,0 +1,107 @@
+.button:hover {
+    -fx-background-color: #b9a5d9;
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #b9a5d9;
+    -fx-font-size: 14px;
+    -fx-border-color: #b9a5d9;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-font-weight: bold;
+}
+
+.button:pressed {
+    -fx-background-color: #b9a5d9;
+    -fx-text-fill: white;
+}
+
+#myMenuPane .label {
+    -fx-text-fill: #82b7d9;
+    -fx-font-size: 14px;
+}
+
+#myMenuPane .menu-bar{
+    -fx-background-color: transparent;
+}
+
+#myMovesPane .label {
+    -fx-text-fill: #b9a5d9;
+    -fx-font-size: 14px;
+}
+
+#myMovesPane .table-cell {
+    -fx-text-fill: #b9a5d9;
+    -fx-font-size: 12px;
+}
+
+#myScoresPane .label {
+    -fx-text-fill: #a2e0a0;
+    -fx-font-size: 14px;
+}
+
+#myPanel .button:hover {
+    -fx-background-color: white;
+    -fx-text-fill: #a2e0a0;
+}
+
+#myPanel .button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-font-weight: bold;
+}
+
+#myPanel .button:pressed {
+    -fx-background-color: white;
+    -fx-text-fill: #a2e0a0;
+}
+
+#myPanel {
+    -fx-background-color: #a2e0a0;
+}
+
+#myPanel .label {
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+}
+
+#myLetterPanel .label {
+    -fx-text-fill: #82b7d9;
+    -fx-font-size: 17px;
+}
+
+.label {
+    -fx-text-fill: #b9a5d9;
+    -fx-font-size: 15px;
+}
+
+#myHeader {
+    -fx-font-size: 17px;
+}
+
+#sendButton:hover {
+    -fx-background-color: #82b7d9;
+    -fx-text-fill: white;
+}
+
+#sendButton {
+    -fx-background-color: transparent;
+    -fx-text-fill: #82b7d9;
+    -fx-font-size: 14px;
+    -fx-border-color: #82b7d9;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+    -fx-font-weight: bold;
+}
+
+#sendButton:pressed {
+    -fx-background-color: #82b7d9;
+    -fx-text-fill: white;
+}
+

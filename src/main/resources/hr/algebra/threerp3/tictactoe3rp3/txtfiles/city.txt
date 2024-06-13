@@ -1,0 +1,494 @@
+salzburg
+graz
+ljubljana
+bakar
+belišće
+benkovac
+biograd na moru
+bjelovar
+bol
+buje
+buzet
+crikvenica
+čabar
+čakovec
+čazma
+cres
+čepin
+črnomelj
+daruvar
+delnice
+amsterdam
+athens
+barcelona
+berlin
+donja stubica
+donji miholjac
+drniš
+dubrovnik
+đakovo
+đurđevac
+glina
+gospić
+grubišno polje
+hvar
+ilok
+imotski
+ivanec
+ivanić-grad
+kaštela
+kastav
+karlovac
+koprivnica
+korčula
+krk
+križevci
+kutina
+kutjevo
+labin
+ludbreg
+makarska
+mali lošinj
+metković
+nova gradiška
+novi marof
+novi vinodolski
+novalja
+novska
+omiš
+opatija
+orljava
+osijek
+otok
+pag
+pazin
+petrinja
+ploče
+požega
+pregrada
+prelog
+pula
+rab
+rijeka
+rovinj
+samobor
+senj
+šibenik
+sinj
+sisak
+slavonski brod
+slunj
+split
+supetar
+šuica
+šumanovci
+švica
+trogir
+umag
+varazdin
+varazdinske topline
+virovitica
+vodice
+vodnjan
+beijing
+shanghai
+mombai
+vrgorac
+vukovar
+zabok
+zagreb
+zaprešić
+zlatar
+zrće
+županja
+istanbul
+moscow
+london
+saint petersburg
+berlin
+madrid
+kyiv
+rome
+bucharest
+paris
+minsk
+vienna
+hamburg
+warsaw
+belgrade
+budapest
+barcelona
+munich
+kharkiv
+prague
+milan
+kazan
+sofia
+nizhny novgorod
+tbilisi
+samara
+ufa
+birmingham
+rostov-on-don
+krasnodar
+yerevan
+cologne
+voronezh
+perm
+volgograd
+odesa
+shanghai
+karachi
+beijing
+mumbai
+delhi
+istanbul
+dhaka
+tokyo
+manila
+guangzhou
+shenzhen
+bangkok
+suzhou
+jakarta
+lahore
+seoul
+ho chi minh city
+bengaluru
+dongguan
+chongqing
+nanjing
+tehran
+shenyang
+hanoi
+hong kong
+baghdad
+chennai
+changsha
+wuhan
+tianjin
+hyderabad
+faisalabad
+foshan
+zunyi
+chittagong
+riyadh
+ahmedabad
+singapore
+shantou
+ankara
+yangon
+chengdu
+kolkata
+xi'an
+surat
+vadodara
+izmir
+zhengzhou
+new taipei city
+yokohama
+hangzhou
+xiamen
+quanzhou
+busan
+rawalpindi
+jeddah
+hyderabad
+kabul
+hefei
+pyongyang
+peshawar
+zhongshan
+pune
+jaipur
+lucknow
+wenzhou
+incheon
+quezon city
+taichung
+kaohsiung
+surabaya
+taipei
+osaka
+dubai
+bandung
+daegu
+nagpur
+nagoya
+baku
+phnom penh
+kochi
+taoyuan
+medan
+kuala lumpur
+sapporo
+tainan
+almaty
+davao city
+novosibirsk
+caloocan
+cape town
+copenhagen
+dublin
+dresden
+edinburgh
+essen
+florence
+frankfurt
+geneva
+glasgow
+helsinki
+havana
+istanbul
+innsbruck
+jakarta
+jerusalem
+kiev
+krakow
+london
+lisbon
+milan
+madrid
+new york city
+naples
+oslo
+oxford
+paris
+prague
+quebec
+quebec city
+quetta
+rome
+riga
+sydney
+stockholm
+tokyo
+tehran
+uppsala
+utrecht
+vancouver
+vienna
+warsaw
+wroclaw
+xanten
+xiamen
+yerevan
+yokohama
+zurich
+zagreb
+kobe
+yekaterinburg
+khulna
+fukuoka
+kyoto
+kawasaki
+omsk
+ranchi
+chelyabinsk
+krasnoyarsk
+tbilisi
+yerevan
+astana
+shymkent
+kinshasa
+lagos
+cairo
+giza
+luanda
+dar es salaam
+khartoum
+johannesburg
+abidjan
+alexandria
+addis ababa
+nairobi
+cape town
+yaounde
+kano
+ekurhuleni
+douala
+casablanca
+ibadan
+antananarivo
+abuja
+kampala
+kumasi
+dakar
+port harcourt
+durban
+ouagadougou
+lusaka
+algiers
+bamako
+omdurman
+mbuji-mayi
+pretoria
+lubumbashi
+accra
+brazzaville
+mogadishu
+tunis
+conakry
+rabat
+lome
+benin city
+matola
+monrovia
+kananga
+harare
+onitsha
+n'djamena
+nouakchott
+mombasa
+niamey
+kisangani
+pointe-noire
+gqeberha
+port elizabeth
+tangier
+freetown
+fez
+uyo
+mwanza
+lilongwe
+kigali
+bukavu
+abomey-calavi
+nnewi
+tripoli
+kaduna
+aba
+bujumbura
+maputo
+hargeisa
+bobo dioulasso
+shubra el-kheima
+ikorodu
+asmara
+marrakesh
+tshikapa
+nyala
+ilorin
+blantyre
+agadir
+misratah
+owerri
+warri
+jos
+bangui
+nampula
+oran
+west rand
+lubango
+cabinda
+umuahia
+libreville
+benghazi
+maiduguri
+enugu
+lokoja
+vereeniging
+benguela
+bunia
+zanzibar
+mexico city
+new york city
+new york
+washington
+los angeles
+toronto
+chicago
+santo domingo
+houston
+havana
+tijuana
+montreal
+ecatepec de morelos
+leon
+phoenix
+philadelphia
+puebla
+juárez
+san antonio
+calgary
+guadalajara
+san diego
+dallas
+zapopan
+port-au-prince
+monterrey
+tegucigalpa
+edmonton
+nezahualcoyotl
+ottawa
+managua
+austin
+jacksonville
+san jose
+fort worth
+chihuahua
+guatemala city
+merida
+naucalpan
+toluca
+columbus
+charlotte
+cancun
+indianapolis
+saltillo
+aguascalientes
+hermosillo
+mexicali
+san luis potosi
+san francisco
+culiacan
+queretaro
+winnipeg
+mississauga
+seattle
+brampton
+santiago de los caballeros
+morelia
+denver
+vancouver
+chimalhuacan
+san pedro sula
+oklahoma city
+reynosa
+torreon
+nashville
+el paso
+washington, d.c.
+tlalnepantla
+acapulco
+las vegas
+boston
+tlaquepaque
+guadalupe
+portland
+surrey
+louisville
+memphis
+detroit
+durango
+hamilton
+kingston
+tuxtla gutierrez
+baltimore
+tonala
+milwaukee
+albuquerque
+quebec
+tucson
+fresno
+veracruz
+apodaca
+sacramento
+ciudad lopez mateos
+tultitlan
+cuautitlan izcalli
+mesa
+carrefour
+matamoros
+kansas city
+villa nueva

@@ -1,0 +1,15 @@
+h1,h2 {
+    color: #b9a5d9;
+}
+
+h3,h4 {
+    color: #82b7d9;
+}
+
+.my-col {
+  background-color: #F5F5F5;
+  box-sizing: border-box;
+  border:1px #DCDCDC solid;
+  border-radius: 5px;
+  padding: 15px;
+}

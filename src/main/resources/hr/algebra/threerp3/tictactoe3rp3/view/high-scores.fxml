@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane id="myScoresPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="650.0" stylesheets="@style/style.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.algebra.threerp3.tictactoe3rp3.controller.HighScoresController">
+
+   <fx:include source="menu-bar.fxml" />
+   <center>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextArea fx:id="taHighScores" editable="false" layoutX="40.0" layoutY="66.0" prefHeight="100.0" prefWidth="120.0" />
+            <Label layoutX="50.0" layoutY="28.0" prefHeight="32.0" prefWidth="141.0" text="High Scores" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
