@@ -1,6 +1,6 @@
 # Multiplayer-Game
 
-JavaFX project with sockets, multithread implementation and JNDI/RMI for network communication
+JavaFX project with sockets, multithread implementation and JNDI/RMI for network communication. Demonstrates MVC design pattern, serialization and deserialization, "Reflection API" to generate documentation, asynchronous data retrieval, SAX parser. 
 
 ![Imgur](https://i.imgur.com/6BaHHM7.png)
 ![Imgur](https://i.imgur.com/BhYGUuN.png)
